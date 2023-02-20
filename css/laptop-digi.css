@@ -1,0 +1,114 @@
+body {
+  font-family: "inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.container h2 {
+  font-size: 16px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.container {
+  background-color: #0099ff;
+}
+
+/* goal */
+/* goal */
+
+.goals {
+  margin: 10px 5px;
+  padding: 20px 20px;
+  background-color: #ebebeb;
+}
+
+.goal {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #999999;
+}
+
+.goal:first-child {
+  border-top: 1px solid #999999;
+}
+
+/* team */
+/* team */
+
+.teams {
+  margin: 10px 5px;
+  padding: 20px 20px;
+  background-color: #ebebeb;
+}
+
+.team {
+  display: flex;
+  gap: 20px;
+}
+
+.team > .icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* scope */
+/* scope */
+
+.scopes {
+  margin: 10px 5px;
+  padding: 20px 20px;
+  background-color: #ebebeb;
+}
+
+.scope {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+}
+
+/* primery */
+/* primery */
+
+.primerys {
+  margin: 10px 5px;
+  padding: 20px 20px;
+  background-color: #ebebeb;
+}
+
+.primery {
+  display: flex;
+  gap: 20px;
+}
+
+/* timeline */
+/* timeline */
+
+.timeline {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin: 10px 5px;
+  padding: 20px 20px;
+  background-color: #ebebeb;
+}
+
+.project {
+  display: flex;
+  gap: 20px;
+}
+
+.number {
+  width: 60px;
+  height: 60px;
+  font-size: 34px;
+  color: #ebebeb;
+  border: 1px solid #696969;
+  border-radius: 50%;
+  background-color: #9966ff;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,88 @@
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  * {
+    margin: 0px;
+  }
+
+  body {
+    font-family: "inter", sans-serif;
+    box-sizing: border-box;
+  }
+
+  section > .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+
+    padding: 0;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  #banner {
+    position: relative;
+    height: 60vh;
+    background-position: center;
+  }
+  /* navbar */
+
+  .nav-items {
+    display: flex;
+  }
+  .nav-item {
+    display: flex;
+    padding: 10px 10px;
+  }
+
+  .nav-item:nth-child(3) {
+    display: none;
+  }
+
+  /* job-info */
+
+  #job-info > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 40px;
+  }
+
+  /* certificate */
+
+  #certificate img {
+    width: 250px;
+    height: 140px;
+  }
+
+  .card-cer-1,
+  .card-cer-2,
+  .card-cer-3 {
+    display: block;
+  }
+
+  /* project */
+
+  #project > .container {
+    margin: 30px 30px;
+  }
+
+  .cards-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .cards-project img {
+    width: 220px;
+  }
+
+  .individual {
+    height: 30px;
+    gap: 0;
+    padding: 0;
+  }
+
+  .individual p {
+    padding: 0;
+  }
+}
